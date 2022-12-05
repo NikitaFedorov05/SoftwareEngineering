@@ -32,7 +32,7 @@ double y = 0;
     } while (!(step > 0));
 
     do{
-        cout << "Input n>1, n= ";
+        cout << "Input n > 1, n= ";
         while (!(cin >> n) || (cin.peek() != '\n')){
         cin.clear();
         while (cin.get() != '\n');
