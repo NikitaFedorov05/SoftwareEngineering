@@ -62,4 +62,6 @@ double y = 0;
         cout << "x= "<< x << " y= " << y << endl;
         }
     }
+
+    return 0;
 }
