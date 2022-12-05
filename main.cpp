@@ -7,7 +7,7 @@ int a, b, n;
 double step = 0;
 double y = 0;
     do{
-        cout << "Pleeeease input a and b. Remember that a must be less than b. Input a= ";
+        cout << "Please input a and b. Remember that a must be less than b. Input a= ";
         while (!(cin >> a) || (cin.peek() != '\n')){
         cin.clear();
         while (cin.get() != '\n');
